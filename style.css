@@ -1,0 +1,62 @@
+body{
+  background-color: teal;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 50px 120px;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  display: block;
+  padding: 10px;
+  font-size: xx-large;
+  height: 150px;
+  width: 150px;
+  text-align: center;
+}
+ul .top {
+  border-right: black solid 3px;
+  border-bottom: black solid 3px;
+}
+ul .middle {
+  border-right: black solid 3px;
+  border-bottom: black solid 3px;
+}
+ul .bottom {
+  border-right: black solid 3px;
+}
+.right li {
+  border-right: 0px;
+}
+
+button{
+  border: none;
+  font-size: xx-large;
+  cursor: pointer;
+  padding: 50px;
+  background: none;
+  text-align: center;
+}
+#newGame{
+ display: block;
+ padding: 15px;
+ margin: 0 auto;
+ background-color: rgb(189, 251, 251);
+ border: solid rgb(0, 170, 255) 1px;
+ border-radius: 30px;
+}
+#newGame:hover{
+  background-color: rgb(0, 170, 255);
+  transition: 300ms;
+}
+button:hover{
+  color: blue;
+  transition: 300ms;
+}
+h1{
+  text-align: center;
+}
