@@ -40,6 +40,8 @@ button{
   padding: 50px;
   background: none;
   text-align: center;
+  height: 150px;
+  width: 150px;
 }
 #newGame{
  display: block;
@@ -48,13 +50,15 @@ button{
  background-color: rgb(189, 251, 251);
  border: solid rgb(0, 170, 255) 1px;
  border-radius: 30px;
+ height: 80px;
+ width: 200px;
 }
 #newGame:hover{
   background-color: rgb(0, 170, 255);
   transition: 300ms;
 }
 button:hover{
-  color: blue;
+  background-color: blue;
   transition: 300ms;
 }
 h1{
