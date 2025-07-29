@@ -13,3 +13,5 @@ I am working on creating a web tictactoe game to further my understanding of Jav
 
 First Commit
 - basic UI and some javascript
+Second Commit
+- added that the player can click buttons and update their text to "X" and computer randomly selects a spot to put "O'
